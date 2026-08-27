@@ -1,0 +1,23 @@
+[project]
+name = "exhibitor-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "thanhhc", email = "thanhhcse@gmail.com" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "anthropic>=0.125.0",
+    "pgvector>=0.4.2",
+    "psycopg[binary]>=3.2.13",
+    "pydantic>=2.13.4",
+    "python-dotenv>=1.2.1",
+]
+
+[project.scripts]
+exhibitor-agent = "exhibitor_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"
