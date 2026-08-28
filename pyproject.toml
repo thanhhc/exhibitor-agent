@@ -9,9 +9,11 @@ authors = [
 requires-python = ">=3.9"
 dependencies = [
     "anthropic>=0.125.0",
+    "pdfplumber>=0.11.8",
     "pgvector>=0.4.2",
     "psycopg[binary]>=3.2.13",
     "pydantic>=2.13.4",
+    "pymupdf>=1.26.5",
     "python-dotenv>=1.2.1",
 ]
 

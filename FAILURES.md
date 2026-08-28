@@ -1,0 +1,1 @@
+observability gap: is_error captures transport failures, not domain failures
